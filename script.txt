@@ -1,0 +1,12 @@
+my_file=open('C:\\Users\\Mohammad\\Desktop\\test\\test1.txt')
+
+with open('C:\\Users\\Mohammad\\Desktop\\test\\test1.txt') as my_file2:
+	print(my_file2.read())
+
+with open('C:\\Users\\Mohammad\\Desktop\\test\\test2.txt',mode='w') as my_file3:
+	print(my_file3.write('just just ok ted!!'))
+	
+with open('C:\\Users\\Mohammad\\Desktop\\test\\test2.txt',mode='a') as my_file4:
+	print(my_file4.write('\nok dude'))
+with open('C:\\Users\\Mohammad\\Desktop\\test\\test2.txt',mode='r+') as my_file5:
+	print(my_file5.write('not ok dude '))
